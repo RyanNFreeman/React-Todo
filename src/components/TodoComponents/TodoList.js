@@ -2,21 +2,22 @@
 // feel free to change this component.js into TodoList.js
 import React from 'react';
 import Todo from './components/TodoComponents/Todo'
-import TodoForm from './components/TodoComponents/TodoForm'
 
-function TodoList(props) {
+const TodoList = props => {
     return (
-        <div>
+        <div className='Todolist-style'>
             {props.todos.map(todo => (
-                <Todo
-                    handleToggleComplete={props.handleToggleComplete}
-                    key={todo.id}
-                    todo={todo}
-                />
+                <Todo todo={todo} /> 
             ))}
-            <TodoForm />
+
         </div>
     )
 }
 
 export default TodoList;
+
+{/* <Todo
+    handleToggleComplete={props.handleToggleComplete}
+    key={todo.id}
+    todo={todo}
+/> */}

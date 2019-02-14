@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Todo (props) {        
+const Todo = props => {        
     return (
         <div>
             hello
@@ -8,6 +8,5 @@ function Todo (props) {
         </div>
     );
 };
-
 
 export default Todo;

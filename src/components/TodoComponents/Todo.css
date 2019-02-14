@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 600px;
+    font-family:"Reenie Beanie",arial,sans-serif;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    font-size: 62.5%;
+    box-shadow:
+    /* The top layer shadow */
+        0 1px 1px rgba(0,0,0,0.15),
+            /* The second layer */
+        0 10px 0 -5px #eee,
+            /* The second layer shadow */
+        0 10px 1px -4px rgba(0,0,0,0.15),
+            /* The third layer */
+        0 20px 0 -10px #eee,
+            /* The third layer shadow */
+        0 20px 1px -9px rgba(0,0,0,0.15);
+}
+
+.wrapper {
+    background: lightyellow;
+}
+
+.header {
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+.input {
+    padding: 50px;
+    font-size: 2rem;
+    font-family:"Reenie Beanie",arial,sans-serif;
+
+}
+
+.addTodo {
+    font-size: 4rem;
+}
+
+.custom-btn {
+    width: 100%;
+    color: black;
+    font-size: 3rem;
+    background: linear-gradient(lightblue, blue);
+    font-family:"Reenie Beanie",arial,sans-serif;
+
+}
